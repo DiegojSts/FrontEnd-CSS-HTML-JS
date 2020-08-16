@@ -1,0 +1,192 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo{
+    float: left;
+    padding: 16px;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+    margin-left: 39px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redes-sociais{
+    width: 25%;
+    float: right;
+}
+
+ul{
+    padding: 0px !important;
+    /*font-size: 10px !important;*/
+}
+.header-2{
+    /*background-color: rgb(245, 245, 245);*/
+    background-color: rgba(90, 89, 89, 0.664);
+    width: 100%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.menu-urls{
+    border-bottom: solid 4px rgba(90, 89, 89, 0.664);
+    height: 70px !important;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 41px;
+}
+
+.menu ul li:hover{
+    border-bottom: 4px solid #4a1cf1;
+}
+
+.menu ul li a:hover{
+    
+    color: #4a1cf1;
+}
+
+.menu ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 10px !important;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 2px;
+}
+.menu{
+    width: 37%;
+    float: left;
+    height: 20px;
+    padding: 30px;
+    padding-left: 191px;
+    padding-top: 2px;
+}
+.busca{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 10%;
+    float: right;
+    text-align: center;
+    padding-right: 279px;
+    padding-top: 3px;
+}
+
+.busca input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 23px !important;
+    width: 204px;
+    border: 1px solid #d6d6d6;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 63px !important;
+    background-color: white;
+}
+
+button.slick-prev{
+    top: 353%;
+    left: 17%;
+    z-index: 9;
+    position: absolute;
+    font-size: 0;
+    border: none;
+    height: 50px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url('../img/anterior.png');
+    /*box-sizing: content-box;*/
+}
+
+button.slick-next{
+    color: black;
+    top: 353%;
+    right: 17%;
+    z-index: 9;
+    position: absolute;
+    font-size: 0;
+    border: none;
+    height: 50px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url('../img/proximo.png');
+   
+}
+
+ul.slick-dots li{
+    display: inline-block;
+    font-size: 0px;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+}
+
+ul.slick-dots li.slick-active{
+    background-color: blue;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-list{
+    width: 100% !important;
+}
+
+.slick-dots li button{
+    font-size: 0;
+    border: 2px solid #d6d6d6;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 50%;
+    
+    
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: -52px;
+    
+}
+.slick-dots li{
+    display: inline-block;
+    padding-left: 0px;
+}
+
+ul.slick-dots li.slick-active{
+    background-color: lightseagreen !important;
+}
