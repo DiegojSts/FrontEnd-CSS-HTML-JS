@@ -110,6 +110,7 @@ ul{
     position: relative;
     height: 63px !important;
     background-color: white;
+    margin-top: 0;
 }
 
 button.slick-prev{
@@ -189,4 +190,21 @@ ul.slick-dots li.slick-active{
 
 ul.slick-dots li.slick-active{
     background-color: lightseagreen !important;
+}
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.texto-destaque strong{
+color: rgb(103, 131, 148);
+
+}
+
+.texto-destaque{
+    text-align: center;
+}
+
+.texto-destaque p {
+    color: gray;
+    font-size: 15px;
 }
