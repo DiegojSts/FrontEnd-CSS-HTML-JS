@@ -107,20 +107,20 @@ ul{
 .col-100{
     width: 100%;
     float: left;
-    position: relative;
-    height: 63px !important;
+    /*position: relative;*/
+    /*height: 63px !important;*/
     background-color: white;
     margin-top: 0;
 }
 
 button.slick-prev{
-    top: 353%;
-    left: 17%;
+    top: 296px;
+    left: 231px;
     z-index: 9;
     position: absolute;
     font-size: 0;
     border: none;
-    height: 50px;
+    height: 52px;
     width: 25px;
     background-color: transparent;
     background-image: url('../img/anterior.png');
@@ -128,14 +128,14 @@ button.slick-prev{
 }
 
 button.slick-next{
-    color: black;
-    top: 353%;
-    right: 17%;
+    /*color: black;*/
+    top: 296px;
+    right: 231px;
     z-index: 9;
     position: absolute;
     font-size: 0;
     border: none;
-    height: 50px;
+    height: 52px;
     width: 25px;
     background-color: transparent;
     background-image: url('../img/proximo.png');
@@ -207,4 +207,56 @@ color: rgb(103, 131, 148);
 .texto-destaque p {
     color: gray;
     font-size: 15px;
+}
+
+.col-3{
+    text-align: center;
+    padding-left: 15px;
+    padding-right:15px;
+    width: 29%;
+    position: relative;
+    float: left;
+}
+.bloco-imagem img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagem b, p {
+    text-align: center;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
+.bloco-texto{
+    margin-top: 3em;
+}
+
+h3{
+    font-weight: normal!important;
 }
